@@ -88,7 +88,7 @@ print(color)
 print("Part b")
 color =['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
 #part(b)- Removing "Black" and "Pink" from the list
-color.remove('Black');color.remove('Pink'); color.insert(3,'Purple')
+del color[3:5]; color.insert(3,'Purple')
 print(color)
 
 #################################################################
