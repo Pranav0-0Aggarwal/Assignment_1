@@ -1,3 +1,4 @@
 # Assignment
-Assignment 1\n
+Assignment 1
+
 Assignment 2
