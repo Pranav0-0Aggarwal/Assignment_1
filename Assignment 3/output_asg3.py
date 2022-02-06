@@ -82,3 +82,41 @@ Part D
 Please enter the student's SID whose detail you need- 21105095
 Name of the required student is Pranav Aggarwal
 
+===== RESTART: /Users/pranavaggarwal/Documents/Python Clg/Assignment 3/7.py ====
+Question 7
+Total elements of Fibonacci sequence that you want(must be greater than 1)- 2
+Fibonnaci sequence with 2 terms
+0
+1
+Sum of total 2 terms of sequence is 1
+END
+
+===== RESTART: /Users/pranavaggarwal/Documents/Python Clg/Assignment 3/7.py ====
+Question 7
+Total elements of Fibonacci sequence that you want(must be greater than 1)- 10
+Fibonnaci sequence with 10 terms
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+Sum of total 10 terms of sequence is 88
+END
+
+===== RESTART: /Users/pranavaggarwal/Documents/Python Clg/Assignment 3/8.py ====
+Question 8
+Part a
+set with elements not common in both is {1, 3, 5, 6, 8}
+Part b
+Set of elements that is only present in one set is {17, 3, 6, 8, 9, 13}
+Part C
+Set of elements that is only present in two set is {1, 2, 4, 5}
+Part d
+set of all integers in the range 1 to 10 that are not in Set1 {8, 9, 6, 7}
+Part e
+set of all integers in the range 1 to 10 that are not in Set1 and Set2 and Set3 {7}
