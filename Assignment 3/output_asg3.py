@@ -117,6 +117,6 @@ Set of elements that is only present in one set is {17, 3, 6, 8, 9, 13}
 Part C
 Set of elements that is only present in two set is {1, 2, 4, 5}
 Part d
-set of all integers in the range 1 to 10 that are not in Set1 {8, 9, 6, 7}
+set of all integers in the range 1 to 10 that are not in Set1 {6, 7, 8, 9, 10}
 Part e
-set of all integers in the range 1 to 10 that are not in Set1 and Set2 and Set3 {7}
+set of all integers in the range 1 to 10 that are not in Set1 and Set2 and Set3 {10, 7}
