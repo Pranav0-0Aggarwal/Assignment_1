@@ -272,7 +272,7 @@ print(f"Set of elements that is only present in two set is {set_onlyintwo}")
 #Finding elements common in set1 and range 1 to 10
 print("Part d")
 new_set1=set()
-for n in range(1,10):
+for n in range(1,11):
     new_set1.add(n)
 not_common_1=new_set1- Set1
 print(f"set of all integers in the range 1 to 10 that are not in Set1 {not_common_1}")
@@ -280,7 +280,7 @@ print(f"set of all integers in the range 1 to 10 that are not in Set1 {not_commo
 #Finding elements common in sets 1,2,3 and range 1 to 10
 print("Part e")
 new_set2=set()
-for n in range(1,10):
+for n in range(1,11):
     new_set2.add(n)
 not_common_2=new_set2 - (Set1|Set2|Set3)
 print(f"set of all integers in the range 1 to 10 that are not in Set1 and Set2 and Set3 {not_common_2}")
