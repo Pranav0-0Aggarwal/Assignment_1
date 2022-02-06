@@ -95,7 +95,7 @@ if condition:
         if year%4==0:
             if day==29:
                 next_day=1
-                month=3
+                n_month=3
             else:
                 next_day=day+1
         else:
@@ -103,7 +103,7 @@ if condition:
                 next_day=1
             else:
                 next_day=day+1
-                month=3
+                n_month=3
     #covering all the remaining cases
     else:
         if day==30:
