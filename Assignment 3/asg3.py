@@ -220,12 +220,14 @@ print("")
 #Question 7
 
 print("Question 7")
-number=int(input("Total elements of Fibonacci sequence that you want- "))
+number=int(input("Total elements of Fibonacci sequence that you want(must be greater than 1)- "))
 
 #using the formula of the sum of previous two terms is equal to the present term.
 a_n1=1
 a_n2=0
 n=0
+#initializing sum with first two terms
+sum=a_n1+a_n2
 
 #printing the initial two terms as the recursion is not valid on them
 print(f"Fibonnaci sequence with {number} terms")
@@ -239,8 +241,9 @@ while n<number-2:
     a_n1=a_n
     print(a_n)
     n=n+1
-
+    sum+=a_n
 #printing the program end prompt
+print(f"Sum of total {number} terms of sequence is {sum}")
 print("END")
 
 ################################################################################################
