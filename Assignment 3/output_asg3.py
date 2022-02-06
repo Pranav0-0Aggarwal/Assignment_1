@@ -27,7 +27,7 @@ Question 2
 Please enter Day- 29
 Please enter Month- 02
 Please enter Year- 2020
-Next Date is: 1/2/2020
+Next Date is: 1/3/2020
 
 ===== RESTART: /Users/pranavaggarwal/Documents/Python Clg/Assignment 3/3.py ====
 Question 3
