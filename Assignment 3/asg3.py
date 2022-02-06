@@ -58,7 +58,9 @@ year=int(input('Please enter Year- '))
 #Removing all the invalid cases
 if day>30 and month in {2,4,6,9,11}:
     condition=False
-elif day==29 or day==30 and month==2 and year%4!=0:
+elif day>31 and month in {1,3,5,7,8,10,12}:
+    condition=False
+elif (day==29 or day==30) and month==2 and year%4!=0:
     condition=False
 elif day==30 and month==2 and year%4==0:
     condition=False
