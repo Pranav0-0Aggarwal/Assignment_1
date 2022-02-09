@@ -101,9 +101,10 @@ if condition:
         else:
             if day==28:
                 next_day=1
+                n_month=3
             else:
                 next_day=day+1
-                n_month=3
+                    
     #covering all the remaining cases
     else:
         if day==30:
