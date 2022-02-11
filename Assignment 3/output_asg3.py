@@ -88,7 +88,7 @@ Total elements of Fibonacci sequence that you want(must be greater than 1)- 2
 Fibonnaci sequence with 2 terms
 0
 1
-Sum of total 2 terms of sequence is 1
+Average of total 2 terms of sequence is 0.5
 END
 
 ===== RESTART: /Users/pranavaggarwal/Documents/Python Clg/Assignment 3/7.py ====
