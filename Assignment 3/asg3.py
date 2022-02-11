@@ -243,7 +243,7 @@ while n<number-2:
     print(a_n)
     n=n+1
     sum+=a_n
-    average=sum/number
+average=sum/number
 #printing the program end prompt
 print(f"Average of total {number} terms of sequence is {average}")
 print("END")
