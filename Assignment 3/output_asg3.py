@@ -105,7 +105,7 @@ Fibonnaci sequence with 10 terms
 13
 21
 34
-Sum of total 10 terms of sequence is 88
+Average of total 10 terms of sequence is 8.8
 END
 
 ===== RESTART: /Users/pranavaggarwal/Documents/Python Clg/Assignment 3/8.py ====
