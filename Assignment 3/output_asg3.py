@@ -29,10 +29,19 @@ Please enter Month- 02
 Please enter Year- 2020
 Next Date is: 1/3/2020
 
-===== RESTART: /Users/pranavaggarwal/Documents/Python Clg/Assignment 3/3.py ====
+== RESTART: /Users/pranavaggarwal/Documents/Python college/Assignment 3/q3.py ==
 Question 3
-[3, 5, 8, 12, 15]
-[(3, 9), (5, 25), (8, 64), (12, 144), (15, 225)]
+Plz enter Y to enter data- Y
+Plz give an integer input- 2
+Plz enter Y to enter data- Y
+Plz give an integer input- 5
+Plz enter Y to enter data- Y
+Plz give an integer input- 9
+Plz enter Y to enter data- Y
+Plz give an integer input- 37
+Plz enter Y to enter data- N
+[2, 5, 9, 37]
+[(2, 4), (5, 25), (9, 81), (37, 1369)]
 
 ===== RESTART: /Users/pranavaggarwal/Documents/Python Clg/Assignment 3/4.py ====
 Question 4
