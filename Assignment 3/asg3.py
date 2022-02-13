@@ -119,18 +119,23 @@ else:
     print("That's not a valid date")
 
 ###################################################################################################
-#Question 3
+# Question 3
 
 print("Question 3")
-#given list
-list1=[3,5,8,12,15]
+# defining an empty list to take input from user
+list1 = []
+
+# taking input from user
+while input("Plz enter Y to enter data- ").lower().strip() == 'y':
+    list_elem = int(input("Plz give an integer input- "))
+    list1.append(list_elem)
 print(list1)
 
-#defining an empty list to store tuple pairs later
-list2=[]
+# defining an empty list to store tuple pairs later
+list2 = []
 for x in list1:
-    tuple=(x,x**2)
-    list2.append(tuple)
+    tuple_c = (x, x ** 2)
+    list2.append(tuple_c)
 print(list2)
 
 ###################################################################################################
