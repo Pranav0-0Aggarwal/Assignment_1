@@ -66,6 +66,8 @@ elif day==30 and month==2 and year%4==0:
     condition=False
 else:
     condition=True
+if month>12:
+    condition=False
 
 
 #After checking the condition, following if-else statement is executed
@@ -79,6 +81,7 @@ if condition:
         n_month=1
     else:
         n_month=month
+
 #changing dates
     #checking for months with 31 days
     if month in {1,3,5,7,8,10,12}:
@@ -104,7 +107,7 @@ if condition:
                 n_month=3
             else:
                 next_day=day+1
-                    
+
     #covering all the remaining cases
     else:
         if day==30:
@@ -114,6 +117,7 @@ if condition:
             next_day=day+1
     #printing the calculations
     print(f"Next Date is: {next_day}/{n_month}/{n_year}")
+
 else:
     #gives a warning and ends the program
     print("That's not a valid date")
@@ -178,7 +182,7 @@ for row in range(0,6):
             counter=counter+1
         column=column+1
     print("")
-    
+ 
 ##########################################################################################################
 #Question 6
 
