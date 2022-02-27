@@ -19,7 +19,7 @@ counter = 0
 tower_of_hanoi(inp, "A", "B", "C")
 print(f"Total number of steps to be followed is {counter}")
 #########################################################################################
-
+print('\n')
 # Question 2
 print("Question 2")
 # input rows
@@ -64,7 +64,7 @@ for line in range(1, n + 1):
     print()
 print("")
 ####################################################################################
-
+print('\n')
 # Question 3
 print("Question 3")
 a = int(input("Enter the first number: "))
@@ -112,7 +112,7 @@ print('f)')
 m = max(f_s)
 print(hash(str(m)))
 ####################################################################################################
-
+print('\n')
 # Question 4
 print("Question 4")
 
@@ -136,7 +136,7 @@ print(f"The name of the student is {student1.name} and SID is {student1.sid}.")
 # deleting object
 del student1
 ####################################################################################################
-
+print("\n")
 # Question 5
 print("Question 5")
 
@@ -164,7 +164,7 @@ print("Part B")
 del c
 print("Records of Viren are deleted")
 ##########################################################################################################
-
+print("\n")
 # Question 6
 print("Question 6")
 # Question-6
@@ -177,7 +177,7 @@ word2 = input("Enter a new meaningful word to test your friendship: ")
 
 def count_in_dict(word):
     count = {}
-    list1 = list(word)
+    list1 = list(word.lower())
 
     n = len(list1)
     for i in range(n):
